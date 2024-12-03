@@ -19,6 +19,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.JESUS_FEET);
                         entries.add(ModItems.CRUCIFIX);
+                        entries.add(ModItems.HOLY_DROP);
+                        entries.add(ModItems.CURSED_DROP);
 
                     }).build());
     public static final ItemGroup JESUS_BLOCKS = Registry.register(Registries.ITEM_GROUP,
@@ -28,6 +30,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.HOLY_BLOCK);
                         entries.add(ModBlocks.CURSED_BLOCK);
+                        entries.add(ModBlocks.HOLY_ORE);
+                        entries.add(ModBlocks.CURSED_ORE);
 
                     }).build());
 

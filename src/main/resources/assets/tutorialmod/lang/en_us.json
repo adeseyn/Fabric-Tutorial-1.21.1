@@ -1,9 +1,14 @@
 {
   "item.tutorialmod.jesus_feet": "Jesus Feet",
   "item.tutorialmod.crucifix": "Crucifix",
+  "item.tutorialmod.holy_drop": "Holy Drop",
+  "item.tutorialmod.cursed_drop": "Cursed Drop",
 
   "block.tutorialmod.holy_block": "Holy Block",
   "block.tutorialmod.cursed_block": "Cursed Block",
+
+  "block.tutorialmod.holy_ore": "Holy Ore",
+  "block.tutorialmod.cursed_ore": "Cursed Ore",
 
   "itemgroup.tutorialmod.jesus_items": "Jesus Items",
   "itemgroup.tutorialmod.jesus_blocks": "Jesus Blocks"

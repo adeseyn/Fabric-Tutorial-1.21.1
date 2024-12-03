@@ -11,6 +11,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item JESUS_FEET = registerItem("jesus_feet", new Item(new Item.Settings()));
     public static final Item CRUCIFIX = registerItem("crucifix", new Item(new Item.Settings()));
+    public static final Item HOLY_DROP = registerItem("holy_drop", new Item(new Item.Settings()));
+    public static final Item CURSED_DROP = registerItem("cursed_drop", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
@@ -22,6 +24,8 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(JESUS_FEET);
             fabricItemGroupEntries.add(CRUCIFIX);
+            fabricItemGroupEntries.add(HOLY_DROP);
+            fabricItemGroupEntries.add(CURSED_DROP);
         });
 
     }
