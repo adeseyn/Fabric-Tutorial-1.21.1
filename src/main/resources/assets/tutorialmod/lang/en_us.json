@@ -1,4 +1,7 @@
 {
   "item.tutorialmod.jesus_feet": "Jesus Feet",
-  "item.tutorialmod.crucifix": "Crucifix"
+  "item.tutorialmod.crucifix": "Crucifix",
+
+  "block.tutorialmod.holy_block": "Holy Block",
+  "block.tutorialmod.cursed_block": "Cursed Block"
 }

@@ -1,5 +1,6 @@
 package net.adeseyn.tutorialmod;
 
+import net.adeseyn.tutorialmod.block.ModBlocks;
 import net.adeseyn.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
