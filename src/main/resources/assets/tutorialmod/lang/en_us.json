@@ -3,5 +3,8 @@
   "item.tutorialmod.crucifix": "Crucifix",
 
   "block.tutorialmod.holy_block": "Holy Block",
-  "block.tutorialmod.cursed_block": "Cursed Block"
+  "block.tutorialmod.cursed_block": "Cursed Block",
+
+  "itemgroup.tutorialmod.jesus_items": "Jesus Items",
+  "itemgroup.tutorialmod.jesus_blocks": "Jesus Blocks"
 }
