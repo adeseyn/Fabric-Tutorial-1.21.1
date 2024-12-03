@@ -2,17 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "I": {
-      "item": "minecraft:iron_block"
-    },
-    "D": {
-      "item": "minecraft:diamond_block"
+    "H": {
+      "item": "tutorialmod:holy_drop"
     }
   },
   "pattern": [
-    "III",
-    "IDI",
-    "III"
+    "HHH",
+    "HHH",
+    "HHH"
   ],
   "result": {
     "id": "tutorialmod:holy_block"

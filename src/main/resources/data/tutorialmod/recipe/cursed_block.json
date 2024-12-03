@@ -2,17 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": {
-      "item": "minecraft:gold_block"
-    },
-    "D": {
-      "item": "minecraft:diamond_block"
+    "C": {
+      "item": "tutorialmod:cursed_drop"
     }
   },
   "pattern": [
-    "GGG",
-    "GDG",
-    "GGG"
+    "CCC",
+    "CCC",
+    "CCC"
   ],
   "result": {
     "id": "tutorialmod:cursed_block"

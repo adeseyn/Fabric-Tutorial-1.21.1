@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:holy_block",
+    "tutorialmod:holy_ore",
+    "tutorialmod:cursed_block",
+    "tutorialmod:cursed_ore"
+  ]
+}
