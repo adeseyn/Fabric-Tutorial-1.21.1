@@ -14,7 +14,7 @@ public class ModItemGroups {
 
     public static final ItemGroup JESUS_ITEMS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TutorialMod.MOD_ID, "jesus_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.JESUS_FEET))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CRUCIFIX))
                     .displayName(Text.translatable("itemgroup.tutorialmod.jesus_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.JESUS_FEET);

@@ -1,6 +1,7 @@
 package net.adeseyn.tutorialmod.item;
 
 import net.adeseyn.tutorialmod.TutorialMod;
+import net.adeseyn.tutorialmod.item.custom.CrucifixItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -10,7 +11,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item JESUS_FEET = registerItem("jesus_feet", new Item(new Item.Settings()));
-    public static final Item CRUCIFIX = registerItem("crucifix", new Item(new Item.Settings()));
+    public static final Item CRUCIFIX = registerItem("crucifix", new CrucifixItem(new Item.Settings().maxDamage(30)));
     public static final Item HOLY_DROP = registerItem("holy_drop", new Item(new Item.Settings()));
     public static final Item CURSED_DROP = registerItem("cursed_drop", new Item(new Item.Settings()));
 
@@ -23,7 +24,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(JESUS_FEET);
-            fabricItemGroupEntries.add(CRUCIFIX);
+//            fabricItemGroupEntries.add(CRUCIFIX);
             fabricItemGroupEntries.add(HOLY_DROP);
             fabricItemGroupEntries.add(CURSED_DROP);
         });
